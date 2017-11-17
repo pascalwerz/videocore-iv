@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5033BCF01C479E610095CA10 /* VC4Disassembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 5033BCEE1C479E610095CA10 /* VC4Disassembly.m */; };
+		504EC27E1C4650FC00F28AE3 /* VC4Definition.m in Sources */ = {isa = PBXBuildFile; fileRef = 504EC27D1C4650FC00F28AE3 /* VC4Definition.m */; };
+		504EC2811C4668D800F28AE3 /* VC4Context.m in Sources */ = {isa = PBXBuildFile; fileRef = 504EC2801C4668D800F28AE3 /* VC4Context.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5033BCEE1C479E610095CA10 /* VC4Disassembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC4Disassembly.m; sourceTree = "<group>"; };
+		5033BCEF1C479E610095CA10 /* VC4Disassembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC4Disassembly.h; sourceTree = "<group>"; };
+		504EC2731C46505900F28AE3 /* videocore iv.hopperCPU */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "videocore iv.hopperCPU"; sourceTree = BUILT_PRODUCTS_DIR; };
+		504EC2761C46505A00F28AE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504EC27C1C4650FC00F28AE3 /* VC4Definition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC4Definition.h; sourceTree = "<group>"; };
+		504EC27D1C4650FC00F28AE3 /* VC4Definition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC4Definition.m; sourceTree = "<group>"; };
+		504EC27F1C4668D800F28AE3 /* VC4Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC4Context.h; sourceTree = "<group>"; };
+		504EC2801C4668D800F28AE3 /* VC4Context.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC4Context.m; sourceTree = "<group>"; };
+		50CAC3781C5762C800BDF5D1 /* VC4InstructionDefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VC4InstructionDefs.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		504EC2701C46505900F28AE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		504EC26A1C46505900F28AE3 = {
+			isa = PBXGroup;
+			children = (
+				504EC2751C46505900F28AE3 /* videocore iv */,
+				504EC2741C46505900F28AE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		504EC2741C46505900F28AE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				504EC2731C46505900F28AE3 /* videocore iv.hopperCPU */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		504EC2751C46505900F28AE3 /* videocore iv */ = {
+			isa = PBXGroup;
+			children = (
+				504EC2761C46505A00F28AE3 /* Info.plist */,
+				504EC27C1C4650FC00F28AE3 /* VC4Definition.h */,
+				504EC27D1C4650FC00F28AE3 /* VC4Definition.m */,
+				504EC27F1C4668D800F28AE3 /* VC4Context.h */,
+				504EC2801C4668D800F28AE3 /* VC4Context.m */,
+				50CAC3781C5762C800BDF5D1 /* VC4InstructionDefs.h */,
+				5033BCEF1C479E610095CA10 /* VC4Disassembly.h */,
+				5033BCEE1C479E610095CA10 /* VC4Disassembly.m */,
+			);
+			path = "videocore iv";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		504EC2721C46505900F28AE3 /* videocore iv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504EC2791C46505A00F28AE3 /* Build configuration list for PBXNativeTarget "videocore iv" */;
+			buildPhases = (
+				504EC26F1C46505900F28AE3 /* Sources */,
+				504EC2701C46505900F28AE3 /* Frameworks */,
+				504EC2711C46505900F28AE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "videocore iv";
+			productName = "videocore iv";
+			productReference = 504EC2731C46505900F28AE3 /* videocore iv.hopperCPU */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		504EC26B1C46505900F28AE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = xvi;
+				TargetAttributes = {
+					504EC2721C46505900F28AE3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 504EC26E1C46505900F28AE3 /* Build configuration list for PBXProject "videocore iv" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 504EC26A1C46505900F28AE3;
+			productRefGroup = 504EC2741C46505900F28AE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				504EC2721C46505900F28AE3 /* videocore iv */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		504EC2711C46505900F28AE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		504EC26F1C46505900F28AE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504EC27E1C4650FC00F28AE3 /* VC4Definition.m in Sources */,
+				504EC2811C4668D800F28AE3 /* VC4Context.m in Sources */,
+				5033BCF01C479E610095CA10 /* VC4Disassembly.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		504EC2771C46505A00F28AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/external";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		504EC2781C46505A00F28AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/external";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		504EC27A1C46505A00F28AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "videocore iv/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.rpc1.xvi.videocore-iv";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = hopperCPU;
+			};
+			name = Debug;
+		};
+		504EC27B1C46505A00F28AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "videocore iv/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.rpc1.xvi.videocore-iv";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = hopperCPU;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		504EC26E1C46505900F28AE3 /* Build configuration list for PBXProject "videocore iv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504EC2771C46505A00F28AE3 /* Debug */,
+				504EC2781C46505A00F28AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504EC2791C46505A00F28AE3 /* Build configuration list for PBXNativeTarget "videocore iv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504EC27A1C46505A00F28AE3 /* Debug */,
+				504EC27B1C46505A00F28AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 504EC26B1C46505900F28AE3 /* Project object */;
+}
