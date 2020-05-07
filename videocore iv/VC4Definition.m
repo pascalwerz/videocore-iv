@@ -15,6 +15,9 @@
     return [VC4Context class];
 }
 
++ (int)sdkVersion {
+	return HOPPER_CURRENT_SDK_VERSION;
+}
 
 - (NSObject<CPUContext> *)buildCPUContextForFile:(NSObject<HPDisassembledFile> *)file
 {
@@ -28,7 +31,9 @@
     return @[@"VideoCore IV"];
 }
 
-
+- (NSString *)commandLineIdentifier {
+	return @"VC4";
+}
 
 - (NSArray *)cpuSubFamiliesForFamily:(NSString *)family
 {
@@ -149,21 +154,21 @@
 
 
 
-- (BOOL)registerIndexIsStackPointer:(NSUInteger)reg ofClass:(RegClass)reg_class
+- (BOOL)registerIndexIsStackPointer:(NSUInteger)reg ofClass:(RegClass)reg_class cpuMode:(uint8_t)cpuMode file:(NSObject<HPDisassembledFile> *)file
 {
     return reg_class == RegClass_GeneralPurposeRegister && reg == 25;
 }
 
 
 
-- (BOOL)registerIndexIsFrameBasePointer:(NSUInteger)reg ofClass:(RegClass)reg_class
+- (BOOL)registerIndexIsFrameBasePointer:(NSUInteger)reg ofClass:(RegClass)reg_class cpuMode:(uint8_t)cpuMode file:(NSObject<HPDisassembledFile> *)file
 {
     return NO;
 }
 
 
 
-- (BOOL)registerIndexIsProgramCounter:(NSUInteger)reg
+- (BOOL)registerIndexIsProgramCounter:(NSUInteger)reg cpuMode:(uint8_t)cpuMode file:(NSObject<HPDisassembledFile> *)file
 {
     return reg == 31;
 }
@@ -177,7 +182,7 @@
 
 
 
-- (NSString *)framePointerRegisterNameForFile:(NSObject<HPDisassembledFile> *)file {
+- (NSString *)framePointerRegisterNameForFile:(NSObject<HPDisassembledFile> *)file cpuMode:(uint8_t)cpuMode {
     return nil;
 }
 

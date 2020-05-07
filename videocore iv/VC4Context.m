@@ -295,8 +295,6 @@
     return YES;
 }
 
-
-
 - (BOOL)instructionOnlyLoadsAddress:(DisasmStruct *)disasmStruct
 {
     if (disasmStruct->instruction.userData == VC4_INST_LEA)
@@ -305,6 +303,17 @@
 }
 
 
+- (BOOL)instructionManipulatesFloat:(DisasmStruct *)disasmStruct {
+	return NO; // FIXME
+}
+
+- (BOOL)instructionConditionsCPUModeAtTargetAddress:(DisasmStruct *)disasmStruct resultCPUMode:(uint8_t *)cpuMode {
+	return NO;
+}
+
+- (uint8_t)cpuModeForNextInstruction:(DisasmStruct *)disasmStruct {
+	return 0;
+}
 
 - (BOOL)instructionMayBeASwitchStatement:(DisasmStruct *)disasm
 {

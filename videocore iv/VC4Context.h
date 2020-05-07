@@ -6,8 +6,6 @@
 //  Copyright © 2016 Pascal Werz. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
-
 #import <Hopper/Hopper.h>
 
 #import "VC4Definition.h"
